@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Material Design Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper deep-purple lighten-2">
+        <img
+          class="brand-logo logo"
+          src="/logoAlexooO.svg"
+          alt="logo"
+          width="180"
+          height="40"
+        />
+
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="right hide-on-med-and-down">
+          <li><a href="sass.html">HOME</a></li>
+          <li><a href="badges.html">ABOUT</a></li>
+          <li><a href="collapsible.html">SERVICES</a></li>
+          <li><a href="mobile.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav deep-purple lighten-2" id="mobile-demo">
+      <li><a class="grey-text text-lighten-5" href="sass.html">HOME</a></li>
+      <li><a class="grey-text text-lighten-5" href="badges.html">ABOUT</a></li>
+      <li>
+        <a class="grey-text text-lighten-5" href="collapsible.html">SERVICES</a>
+      </li>
+      <li>
+        <a class="grey-text text-lighten-5" href="mobile.html">CONTACT</a>
+      </li>
+    </ul>
+
+    <section class="header-hero grey lighten-3">
+      <div class="row">
+        <div class="hearder-hero__main col l6">
+          <h1 class="heading-text">Only The Best Jobs</h1>
+          <h5 class="fs">
+            <span class="heading-text">AlexooO Recruitment Agency</span><br />
+            The award winning agency you will be happy working with. We
+            understand the job market more than anyone else
+          </h5>
+          <form action="#" class="hearder-hero__form">
+            <input
+              type="text"
+              class="hearder-hero__form__input browser-default"
+              placeholder="Search jobs"
+            />
+            <button class="hearder-hero__form__button">
+              <i class="material-icons">search</i>
+            </button>
+          </form>
+        </div>
+        <div class="header-hero__video hide-on-med-and-down col l6">
+          <video class="header-hero__video-item1" autoplay muted loop>
+            <source src="/meet.mp4" type="video/mp4" />
+            your brower does not support video tags
+          </video>
+          <img src="/image/blob.svg" alt="" class="header-hero__video-item2" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section-offers">
+      <div class="container">
+        <h1 class="heading-text-secondary">Why Choose Us</h1>
+        <div class="row">
+          <div class="col m4">
+            <div class="offers-box card hoverable grey lighten-3">
+              <div class="card-content">
+                <i class="material-icons icons">find_in_page</i>
+                <h3 class="heading-text-secondary-light mt">
+                  Finding Best Jobs
+                </h3>
+                <p class="offers-box__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, ipsum sapiente aspernatur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col m4">
+            <div class="offers-box card hoverable grey lighten-3">
+              <div class="card-content">
+                <i class="material-icons icons">group</i>
+                <h3 class="heading-text-secondary-light mt">
+                  Best Team
+                </h3>
+                <p class="offers-box__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, ipsum sapiente aspernatur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col m4">
+            <div class="offers-box card hoverable grey lighten-3">
+              <div class="card-content">
+                <i class="material-icons icons">business</i>
+                <h3 class="heading-text-secondary-light mt">
+                  Build Your Business
+                </h3>
+                <p class="offers-box__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, ipsum sapiente aspernatur.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-work grey lighten-3">
+      <h1 class="heading-text-secondary">Work With Us</h1>
+      <br />
+
+      <div class="row">
+        <div class="section-work__main-image col l6">
+          <img src="/image/54950.jpg" alt="" class="section-work__image-item" />
+          <img
+            src="/image/blob.svg"
+            alt=""
+            class="section-work__image-itembg"
+          />
+        </div>
+        <div class="section-work__list col l6">
+          <p class="center-align">
+            When we work with you, you can be sure of faster and guaranteed way
+            to solve your job search puzzel and inspire others job seekers. WE
+            offer the following support:
+          </p>
+          <ul>
+            <li>
+              <i class="material-icons icons">check</i>Guaranteed job interview
+              two weeks after registration
+            </li>
+            <li>
+              <i class="material-icons icons">check</i>Job coaching, legal
+              support and salary negotiation
+            </li>
+            <li>
+              <i class="material-icons icons">check</i>Occupational Mobility
+              level up training
+            </li>
+          </ul>
+
+          <a href="http:#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-jobs -->
+    <section class="section-jobs">
+      <div class="row">
+        <h1 class="heading-text-secondary">Hot Listing Jobs</h1>
+        <br />
+        <div class="col s12 l6 section-jobs__listings">
+          <ul class="section-jobs__listings__jobs">
+            <li class="section-jobs__listings__job">
+              <div class="section-jobs__listings__job-listing">
+                <p class="section-jobs__listings__job-title">
+                  Front end developer
+                </p>
+                <p class="section-jobs__listings__job-des">
+                  Toronto
+                  <span class="section-jobs__listings__job-vr"></span>
+                  Ontario
+                </p>
+              </div>
+              <a class="btn section-jobs__listings__job-btn">Apply</a>
+            </li>
+            <li class="section-jobs__listings__job">
+              <div class="section-jobs__listings__job-listing">
+                <p class="section-jobs__listings__job-title">
+                  UX/UI Senior Desinger
+                </p>
+                <p class="section-jobs__listings__job-des">
+                  Soho
+                  <span class="section-jobs__listings__job-vr"></span>
+                  Now York
+                </p>
+              </div>
+              <a class="btn section-jobs__listings__job-btn">Apply</a>
+            </li>
+            <li class="section-jobs__listings__job">
+              <div class="section-jobs__listings__job-listing">
+                <p class="section-jobs__listings__job-title">
+                  JavaScript Developer
+                </p>
+                <p class="section-jobs__listings__job-des">
+                  East York
+                  <span class="section-jobs__listings__job-vr"></span>
+                  Ontario
+                </p>
+              </div>
+              <a class="btn section-jobs__listings__job-btn">Apply</a>
+            </li>
+            <li class="section-jobs__listings__job">
+              <div class="section-jobs__listings__job-listing">
+                <p class="section-jobs__listings__job-title">
+                  Full-Stack Developer
+                </p>
+                <p class="section-jobs__listings__job-des">
+                  Scarborough
+                  <span class="section-jobs__listings__job-vr"></span>
+                  Ontario
+                </p>
+              </div>
+              <a class="btn section-jobs__listings__job-btn">Apply</a>
+            </li>
+          </ul>
+          <a class="btn btn-1 section-jobs__listings__job-btn">Find More</a>
+        </div>
+        <div class="col s12 l6 section-jobs__image">
+          <div class="section-work__main-image">
+            <img
+              src="/image/search.jpg"
+              alt=""
+              class="section-work__image-item"
+            />
+            <img
+              src="/image/blob.svg"
+              alt=""
+              class="section-work__image-itembg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-testimonials grey lighten-3">
+      <h1 class="heading-text-secondary">What Client Say</h1>
+      <br />
+      <div class="row section-testimonials__cards">
+        <div class="col s12 m6 l6">
+          <div
+            class="card-panel section-testimonials__cards-card indigo darken-1"
+          >
+            <img
+              src="/image/pro8.JPG"
+              alt=""
+              class="circle responsive-img profile-img"
+              width="70"
+            />
+            <div class="">
+              <i class="material-icons icons">format_quote</i>
+              <span class="text-card">
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                frameworks.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l6">
+          <div
+            class="card-panel section-testimonials__cards-card deep-purple darken-1"
+          >
+            <img
+              src="/image/pro6-1.jpg"
+              alt=""
+              class="circle responsive-img profile-img"
+              width="70"
+            />
+            <div class="">
+              <i class="material-icons icons">format_quote</i>
+              <span class="text-card">
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                frameworks.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l6">
+          <div
+            class="card-panel section-testimonials__cards-card purple darken-1"
+          >
+            <img
+              src="/image/pro1-1.jpg"
+              alt=""
+              class="circle responsive-img profile-img"
+              width="70"
+            />
+            <div class="">
+              <i class="material-icons icons">format_quote</i>
+              <span class="text-card">
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                frameworks.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l6">
+          <div
+            class="card-panel section-testimonials__cards-card indigo lighten-1"
+          >
+            <img
+              src="/image/pro10-1.jpg"
+              alt=""
+              class="circle responsive-img profile-img"
+              width="70"
+            />
+            <div class="">
+              <i class="material-icons icons">format_quote</i>
+              <span class="text-card">
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                frameworks.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="news-letter blue-grey lighten-2">
+      <h4 class="heading-text-secondary">Get Latest News From Us!</h4>
+      <p>
+        Please sign up to be update on the latest job and life changing career
+        information
+      </p>
+      <form action="#" class="hearder-hero__form">
+        <input
+          type="text"
+          class="hearder-hero__form__input browser-default"
+          placeholder="email"
+        />
+        <button class="hearder-hero__form__button">
+          <i class="material-icons icon-1">email</i>
+        </button>
+      </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="page-footer blue-grey darken-3">
+      <div class="row">
+        <div class="container">
+          <div class="locations col s6">
+            <h6>Location</h6>
+            <div class="location">
+              <h6>N1 AlexOoo Link <br />Greater Accra, GW-5423</h6>
+            </div>
+          </div>
+          <div class="hours col s6">
+            <h6>Hours</h6>
+            <div class="days">
+              <h6>
+                Monday - Saturday <br />
+                9:30am - 6:30pm
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2020 Copyright
+          <a class="grey-text text-lighten-4 right" href="#!"
+            >Created by AlexooO</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,511 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+:root {
+  --heading-bg: -webkit-linear-gradient(#e90966 10%, #9909ac 90%);
+  --margin-top: 2rem;
+  --pad-1: 0 5rem;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+.sidenav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.p-d {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.heading-text {
+  font-weight: 700;
+  background: -webkit-linear-gradient(#e90966 10%, #9909ac 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading-text-secondary-light {
+  font-size: 2.5rem;
+  font-weight: 500;
+  background: -webkit-linear-gradient(#c540a8 60%, #8f11a0 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading-text-secondary {
+  font-weight: 500;
+  color: #9909ac;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.fs {
+  font-size: 18px;
+}
+
+.btn {
+  background: -webkit-linear-gradient(#e90966 10%, #9909ac 90%);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+}
+
+.logo {
+  margin-top: 0.8rem;
+}
+
+.header-hero {
+  min-height: 50vh;
+  padding-top: 1rem;
+  overflow: hidden;
+}
+
+.hearder-hero__main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hearder-hero__main h5 {
+  padding: var(--pad-1);
+  line-height: 1.5;
+}
+
+.hearder-hero__form {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
+}
+
+.hearder-hero__form__input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: 2px solid #7b1fa2;
+  border-image-slice: 2;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  padding: 0.7rem 1rem;
+  width: 70%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin-right: -3.25rem;
+}
+
+.hearder-hero__form__input:focus {
+  outline: none;
+  width: 90%;
+  background-color: #e6e6e6;
+}
+
+.hearder-hero__form__input::-webkit-input-placeholder {
+  font-weight: 100;
+  color: #743ad5;
+}
+
+.hearder-hero__form__input:-ms-input-placeholder {
+  font-weight: 100;
+  color: #743ad5;
+}
+
+.hearder-hero__form__input::-ms-input-placeholder {
+  font-weight: 100;
+  color: #743ad5;
+}
+
+.hearder-hero__form__input::placeholder {
+  font-weight: 100;
+  color: #743ad5;
+}
+
+.hearder-hero__form__input:focus + .hearder-hero__form__button {
+  color: #743ad5;
+}
+
+.hearder-hero__form__button {
+  border: none;
+  background-color: var(--color-grey-light-2);
+}
+
+.hearder-hero__form__button:focus {
+  outline: none;
+}
+
+.hearder-hero__form__button:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.section-offers {
+  padding: 16px 20px;
+  text-align: center;
+}
+
+.icons {
+  font-size: 50px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(#e90966 10%, #9909ac 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feature-box {
+  margin-top: 3rem;
+  background-color: #e6e6e6;
+  padding: 2rem 1rem;
+}
+
+.section-work {
+  min-height: 70vh;
+  overflow: hidden;
+}
+
+.section-work__main-image {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 60vh;
+  margin-top: 2rem;
+}
+
+.section-work__image-item {
+  position: absolute;
+  display: block;
+  top: 55px;
+  height: 200px;
+  width: 250px;
+  z-index: 1;
+}
+
+.section-work__image-itembg {
+  position: absolute;
+  display: block;
+  width: 34rem;
+  height: 35rem;
+}
+
+.section-work__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 3rem;
+}
+
+.section-work__list p {
+  text-align: justify;
+  padding: var(--pad-1);
+}
+
+.section-work__list ul {
+  padding-top: 1rem;
+  text-align: justify;
+}
+
+.section-work__list ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+  padding: var(--pad-1);
+}
+
+.section-work__list .icons {
+  margin-right: 1rem;
+}
+
+.section-work__list .btn {
+  width: 9rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 3rem;
+}
+
+.section-jobs {
+  min-height: 90vh;
+  padding: 2rem 0;
+  overflow: hidden;
+}
+
+.section-jobs__listings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-jobs__listings__job-btn {
+  width: 9rem;
+  margin-bottom: 40px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 1rem;
+}
+
+.section-jobs__listings__jobs {
+  margin-left: 2rem;
+}
+
+.section-jobs__listings__job {
+  line-height: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-bottom: 0;
+}
+
+.section-jobs__listings__job-vr {
+  display: inline-block;
+  width: 1.25px;
+  height: 20px;
+  background-color: #666666;
+  margin: 0 0.25rem;
+}
+
+.section-jobs__listings__job-title {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.section-jobs__listings__job-des {
+  color: forestgreen;
+  padding-bottom: 0;
+}
+
+.section-jobs__listings__job-listing {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 70%;
+          flex: 1 1 70%;
+  border-bottom: 1px solid #666666;
+}
+
+.section-jobs__listings__job-btn {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 0px;
+}
+
+.section-jobs .btn-1 {
+  margin-bottom: 3rem;
+}
+
+.section-testimonials {
+  padding: 0 4rem 3rem 4rem;
+  margin-top: 1rem;
+  min-height: 100vh;
+  margin-bottom: 0;
+}
+
+.section-testimonials .heading-text-secondary {
+  padding-top: 3rem;
+}
+
+.section-testimonials .text-card {
+  color: white;
+}
+
+.section-testimonials__cards-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.section-testimonials__cards-card .profile-img {
+  display: block;
+  position: absolute;
+  border: #8a49f8 solid 2px;
+  top: -40px;
+}
+
+.news-letter {
+  padding: 0 2rem;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  min-height: 35vh;
+}
+
+.news-letter .heading-text-secondary {
+  color: white;
+  padding-bottom: 2rem;
+  padding-top: 3rem;
+  margin-top: 0;
+}
+
+.news-letter p {
+  margin-bottom: -1rem;
+}
+
+.news-letter .icon-1 {
+  font-weight: 700;
+  background: -webkit-linear-gradient(#e90966 10%, #9909ac 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.news-letter .hearder-hero__form {
+  padding-bottom: 3rem;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.news-letter .hearder-hero__form__input {
+  color: black;
+}
+
+@media (min-width: 375px) {
+  .hearder-hero__form__input {
+    color: black;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-hero {
+    padding-top: 5rem;
+  }
+  .hearder-hero__form {
+    padding-top: 4rem;
+  }
+  .hearder-hero__main h5 {
+    padding: 0 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-work__list {
+    margin-top: 0;
+  }
+  .btn {
+    margin-top: 2rem;
+  }
+  .section-work__main-image {
+    margin-bottom: 2rem;
+  }
+  .logo {
+    margin-left: 3rem !important;
+  }
+  nav li:last-of-type {
+    margin-right: 3rem;
+  }
+  .header-hero {
+    padding-top: 2rem;
+    height: 80vh;
+  }
+  .header-hero__main h5 {
+    padding: 0 4rem;
+  }
+  .header-hero__main h1 {
+    padding: 0 4rem;
+  }
+  .header-hero__video {
+    overflow: clip;
+    position: relative;
+    height: 60vh;
+  }
+  .header-hero__video::after {
+    position: absolute;
+    width: 17rem;
+    height: 182px;
+    border-radius: 20px;
+    top: 100px;
+    left: 120px;
+    border-radius: 20px;
+    content: "";
+    background-color: rgba(80, 10, 121, 0.699);
+    z-index: 2;
+  }
+  .header-hero__video-item1 {
+    position: absolute;
+    width: 17rem;
+    height: 180px;
+    border-radius: 20px;
+    top: 100px;
+    left: 120px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    z-index: 1;
+  }
+  .header-hero__video-item2 {
+    position: absolute;
+    display: block;
+    width: 34rem;
+    height: 35rem;
+    top: -50px;
+  }
+  .section-jobs {
+    min-height: 70vh;
+  }
+  .section-jobs__image {
+    position: relative;
+  }
+  .section-jobs .section-work__image-itembg {
+    top: -50px;
+    width: 30rem;
+    height: 30rem;
+    margin-left: 2rem;
+  }
+  .section-testimonials {
+    margin-top: -3rem;
+    padding: 0 4rem;
+  }
+  .section-testimonials .heading-text-secondary {
+    padding-top: 3rem;
+  }
+  .section-testimonials__cards-card {
+    max-width: 35rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
